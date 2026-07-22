@@ -1,0 +1,20 @@
+{
+	"name": "ds_adls_weather_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_weather_lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "weather_data.json",
+				"fileSystem": "bronze-raw"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

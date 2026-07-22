@@ -1,0 +1,19 @@
+{
+	"name": "ds_http_weather_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_http_weather_api",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "weather?q=London&appid=f0023f480c845361a4f4948a38857fc2&units=metric"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
