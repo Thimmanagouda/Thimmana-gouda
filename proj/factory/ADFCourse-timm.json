@@ -1,0 +1,15 @@
+{
+	"name": "ADFCourse-timm",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e8f644e5-24b5-4bc3-aa40-5dadfc598d00",
+		"tenantId": "d95f6094-d28c-42bc-9096-e0746ed850b7"
+	}
+}
