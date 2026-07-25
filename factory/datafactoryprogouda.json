@@ -1,0 +1,15 @@
+{
+	"name": "datafactoryprogouda",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9966e72e-ad57-4319-879a-e83e97eb23d7",
+		"tenantId": "d95f6094-d28c-42bc-9096-e0746ed850b7"
+	}
+}
